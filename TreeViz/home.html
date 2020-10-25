@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<head>
+    <title>World Cup Trees</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header>
+        <article class="articleLeft1">
+            <table>
+                <tr><td class="tdTitle"><b>World Cup Trees</b></td></tr>
+                <tr><td class="tdSubtitle"><b>Historique sur la coupe du monde de football</b></td></tr>
+                <tr><td><img src="./images/Fifa-logo.png" class="imgFifa"></td></tr>
+            </table>
+        </article>
+        <article class="articleLeft2">
+            <p><b>1930</b></p>
+        </article>
+        <article class="articleMiddle">
+            <img src="./images/coupe.png">
+        </article>
+        <article class="articleRight1">
+            <p><b>2018</b></p>
+        </article>
+        <article class="articleRight2">
+            <table>
+                <tr><td style="color:yellow;"><b>MS BigData 2020-2021</b></td></tr>
+                <tr><td>- BENBELLA Othmane</td></tr>
+                <tr><td>- SEMINARIO SANCHEZ Diego Roberto</td></tr>
+                <tr><td>- TIYA DJOWE Antoine</td></tr>
+            </table>
+        </article>
+    </header>
+    <section>
+        <p class="titrePreambule">Préambule</p>
+        <p class="pPreambule">L'objectif de ce TP est de concevoir des visualisations d'arbres qui schématisent la structure hiérarchique
+            d'un repértoire
+            représentée par un objet JSON. <br><br>
+            Le repértoire choisi contient un dossier racine appelé "World Cup" ayant comme fils des sous-dossiers 
+            représentant les six conféderations membres de la FIFA. Chaque sous-dossier 
+            contient uniquement la liste de pays de la conféderation correspondante ayant déjà participé à au moins une phase 
+            finale de la coupe du monde de football. Pour les pays ayant déjà remporté au moins une édition, on trouvera des
+            fichiers dont les noms représentent les années des éditions remportées. Ces fichiers constituent les feuilles du 
+            niveau le plus profond de notre visualisation arborescente.
+        </p><br>
+        <script type="module">
+
+            import define from "./radial-tidy-tree/index.js";
+            import define2 from "./sunburst/index.js";
+            import define3 from "./treee/index.js";
+            import {Runtime, Library, Inspector} from "./radial-tidy-tree/runtime.js";
+            
+            const runtime = new Runtime();
+            const main = runtime.module(define, Inspector.into(document.getElementById("v2")));
+            const main2 = runtime.module(define2, Inspector.into(document.getElementById("v3")));
+            const main3 = runtime.module(define3, Inspector.into(document.getElementById("v1")));
+        </script>
+
+        <p class="titrePreambule">Visualisation 1: Tidy Tree</p>
+        <p class="pPreambule">Cette  visualisation est un arbre hiérarchique horizontal dont le noeud racine (World Cup) est placé tout à
+            gauche de la représentation. Pour chaque niveau, les noeuds fils qui s'y trouvent sont situés sur la même verticale. 
+            Elle comporte 3 niveaux correspondants aux conféderations, aux pays et aux années des titres remportés, respectivement.
+        </p>
+        <div class="visualisation" id="v1"></div>
+        <p class="titrePreambule">Visualisation 2: Radial Tidy Tree</p>
+        <p class="pPreambule">Cette visualisation est semblable à la visualisation 1, à la seule différence que le 
+            noeud racine (World Cup) est placé au centre d'un cercle. Les noeuds fils sont alors rangés sur des cercles concentriques
+            autour du noeud racine. Il s'agit d'une représentation hiérarchique radiale.
+        </p>
+        <div class="visualisation" id="v2"></div>
+        <p class="titrePreambule">Visualisation 3: Sunburst</p>
+        <p class="pPreambule">Tout comme le Radial Tidy Tree, le Sunburst est aussi une représentation hiérarchique
+            radiale. Ici, le noeud racine est un cercle dont la circonference est découpé en plusieurs arcs
+            primaires représentant les noeuds fils (conféderations). La longueur de chaque arc primaire est fonction du 
+            nombre de pays de la conféderation concernée ayant déjà participé à au moins une édition de la coupe du monde.
+            Par ailleurs, la longueur des arcs secondaires dépend du nombre d'éditions remportées par chaque pays. Finalement,
+            les arcs tertiaires représentant les feuilles du niveau le plus profond de notre arbre mentionnent les années des éditions remportées. 
+        </p>
+        <div class="visualisation" id="v3"></div>
+
+    </section>
+</body>

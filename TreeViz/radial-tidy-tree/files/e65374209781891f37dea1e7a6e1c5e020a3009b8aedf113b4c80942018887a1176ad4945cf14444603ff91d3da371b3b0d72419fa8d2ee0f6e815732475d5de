@@ -1,0 +1,529 @@
+{
+    "name": "World Cup",
+    "type": "directory",
+    "children": [
+        {
+            "name": "AFC",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Australia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "China",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Indonesia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Irak",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Iran",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Israel",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Japan",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "North Korea",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "South Korea",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "type": "directory",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "CAF",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Algeria",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Angola",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Cameroon",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Congo DR",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Egypt",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Ghana",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Ivory Coast",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Morocco",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Nigeria",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Senegal",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "South Africa",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Togo",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Tunisia",
+                    "type": "directory",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "CONCACAF",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Canada",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Costa Rica",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Cuba",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "El Salvador",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Haiti",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Honduras",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Jamaica",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Mexico",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Panama",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Trinidad and Tobago",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "USA",
+                    "type": "directory",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "CONMEBOL",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Argentina",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1978",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1986",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bolivia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Brazil",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1958",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1962",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1970",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1994",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2002",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chile",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Colombia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Ecuador",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Paraguay",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Peru",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Uruguay",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1930",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1950",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OFC",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Australia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "New Zealand",
+                    "type": "directory",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "UEFA",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Austria",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Belgium",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Bosnia and Herzegovina",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Bulgaria",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Croatia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Czech Republic",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Denmark",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "East Germany",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "England",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1966",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "France",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1998",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2018",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1954",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1974",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1990",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2014",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Greece",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Hungary",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Iceland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Israel",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Italy",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1934",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1938",
+                            "type": "file"
+                        },
+                        {
+                            "name": "1982",
+                            "type": "file"
+                        },
+                        {
+                            "name": "2006",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Netherlands",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Northern Ireland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Norway",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Poland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Portugal",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Republic of Ireland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Romania",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Russia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Scotland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Serbia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Slovakia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Slovenia",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Spain",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "2010",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sweden",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Switzerland",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Ukraine",
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "Wales",
+                    "type": "directory",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

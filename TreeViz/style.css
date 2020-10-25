@@ -1,0 +1,68 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    display: flex;
+    max-height: 500px;
+    color: white;
+}
+
+header img{
+    width: 100px;
+    height: 150px;
+    display: block;
+    margin-left: 0.5%;
+}
+
+.imgFifa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px; width: 150px;
+}
+
+.tdTitle {
+    font-size: 25px;
+}
+
+.tdSubtitle {
+    font-size: 15px;
+    background-color: yellow;
+    color: black;
+
+}
+
+header article p{
+    font-size: 50px;
+}
+
+header .articleLeft2 {
+    margin-left: 15%;
+}
+
+header .articleRight2{
+    margin-left:auto; 
+    margin-right:0;
+    margin-top: 20px;
+}
+
+.titrePreambule{
+    text-align: center;
+    color: darkblue;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.pPreambule{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+
+.visualisation{
+    margin-left: 10%;
+    margin-right: 10%;
+}
